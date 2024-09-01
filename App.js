@@ -12,6 +12,7 @@ import AlertButton from './components/AlertButton';
 import ParentCounter from './components/ParentCounter';
 import ImageList from './components/ImageList';
 import ImageGallery from './components/ImageGallery';
+import Game from './components/Game';
 
 
 export default function App() {
@@ -55,6 +56,7 @@ export default function App() {
       <AlertButton message={message} />
       <ParentCounter />
       <ImageGallery />
+      <Game />
     </View>
   );
 }
