@@ -9,6 +9,10 @@ import ClickCounter from './components/ClickCounter';
 import RegistrationForm from './components/RegistrationForm';
 import ThemeSwitcher from './components/ThemeSwitcher';
 import AlertButton from './components/AlertButton';
+import ParentCounter from './components/ParentCounter';
+import ImageList from './components/ImageList';
+import ImageGallery from './components/ImageGallery';
+
 
 export default function App() {
   const task = { title: 'Un titulo', completed: true };
@@ -49,6 +53,8 @@ export default function App() {
       )}
       <ThemeSwitcher onSwitch={switchTheme} />
       <AlertButton message={message} />
+      <ParentCounter />
+      <ImageGallery />
     </View>
   );
 }
